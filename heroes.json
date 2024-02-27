@@ -1,0 +1,60 @@
+{
+  "heroes": [
+    {
+      "id": 1,
+      "name": "Перший герой",
+      "description": "Перший герой в рейтинге!",
+      "element": "fire"
+    },
+    {
+      "id": 2,
+      "name": "Невідомий герой",
+      "description": "Скритий у тені",
+      "element": "wind"
+    },
+    {
+      "id": 3,
+      "name": "Морський герой",
+      "description": "Як аквамен, але не із DC",
+      "element": "water"
+    },
+    {
+      "id": "d6a76507-5456-4ca6-889c-fe9ed7a08c5e",
+      "name": "Slava",
+      "description": "applyMiddleware",
+      "element": "earth"
+    }
+  ],
+  "filters": [
+    {
+      "id": "all",
+      "name": "all",
+      "label": "Усі",
+      "className": "btn btn-outline-dark"
+    },
+    {
+      "id": "fire",
+      "name": "fire",
+      "label": "Вогонь",
+      "className": "btn btn-danger"
+    },
+    {
+      "id": "water",
+      "name": "water",
+      "label": "Вода",
+      "className": "btn btn-primary"
+    },
+    {
+      "id": "wind",
+      "name": "wind",
+      "label": "Вітер",
+      "className": "btn btn-success"
+    },
+    {
+      "id": "earth",
+      "name": "earth",
+      "label": "Земля",
+      "className": "btn btn-secondary"
+    }
+  ]
+}

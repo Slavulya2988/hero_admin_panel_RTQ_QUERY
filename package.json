@@ -1,0 +1,47 @@
+{
+  "name": "hero_admin_panel",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.1.0",
+    "@testing-library/jest-dom": "^6.3.0",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/user-event": "^14.5.2",
+    "bootstrap": "^5.3.2",
+    "classnames": "^2.5.1",
+    "concurrently": "^8.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.1.0",
+    "react-scripts": "5.0.1",
+    "react-transition-group": "^4.4.5",
+    "redux-thunk": "^3.1.0",
+    "reselect": "^5.1.0",
+    "sass": "^1.70.0",
+    "uuid": "^9.0.1"
+  },
+  "scripts": {
+    "start": "concurrently \"react-scripts --openssl-legacy-provider start\" \" json-server heroes.json --port 3001\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "classnames": "^2.5.1"
+  }
+}
